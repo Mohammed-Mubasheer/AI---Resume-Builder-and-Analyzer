@@ -1,0 +1,36 @@
+/* frontend/src/pages/HomePage_Custom.css */
+
+.dashboard-card {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px; /* Slightly rounded corners */
+    border: 1px solid #e5e7eb; /* Light border */
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /* Subtle shadow */
+}
+
+.dashboard-card:hover {
+    border-color: #a5b4fc; /* Example hover color */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.dashboard-card .ant-card-body {
+    padding: 16px; /* Adjust padding if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-card-icon {
+    font-size: 48px; /* Make icon larger */
+    color: #6366f1; /* Example icon color (indigo) */
+    margin-bottom: 8px; /* Space between icon and text */
+}
+
+.dashboard-card .ant-typography strong {
+    font-size: 16px; /* Make text slightly larger */
+    color: #374151; /* Darker text */
+}

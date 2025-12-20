@@ -1,0 +1,9 @@
+[
+  "Python", "Java", "JavaScript", "C++", "C#", "Ruby", "PHP", "Swift", "Kotlin", "Go", "Rust", "TypeScript", "HTML", "CSS",
+  "React", "Angular", "Vue", "Node.js", "Django", "Flask", "Spring Boot", "Ruby on Rails", ".NET", "jQuery", "Express.js", "ASP.NET",
+  "SQL", "MySQL", "PostgreSQL", "MongoDB", "SQLite", "Redis", "Cassandra", "Oracle", "Microsoft SQL Server", "NoSQL",
+  "AWS", "Azure", "Google Cloud", "GCP", "Docker", "Kubernetes", "Terraform", "Ansible", "Jenkins", "Git", "CI/CD", "DevOps", "Cloud Computing",
+  "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "scikit-learn", "Pandas", "NumPy", "Data Analysis", "NLP", "Natural Language Processing", "AI", "Artificial Intelligence", "Big Data", "Spark", "Hadoop",
+  "Linux", "Unix", "Windows", "macOS", "Agile", "Scrum", "JIRA",
+  "Communication", "Teamwork", "Problem Solving", "Leadership", "Time Management", "Critical Thinking", "Adaptability", "Collaboration"
+]

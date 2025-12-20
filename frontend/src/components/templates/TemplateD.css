@@ -1,0 +1,110 @@
+/* frontend/src/components/templates/TemplateD.css */
+
+.preview-container.template-minimal {
+  font-family: 'Georgia', Times, 'Times New Roman', serif; /* Serif font */
+  color: #333;
+  line-height: 1.6;
+  padding: 30px 40px; /* Overall padding */
+}
+
+/* --- Header Section --- */
+.minimal-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.minimal-name {
+    font-weight: 700 !important;
+    margin-bottom: 5px !important;
+    font-size: 30px !important; /* Slightly smaller than other templates */
+    color: #000 !important; /* Black name */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.minimal-contact-info {
+    justify-content: center;
+    gap: 8px 15px; /* Adjust gap */
+    font-size: 12px; /* Smaller contact info */
+    color: #555; /* Medium gray */
+    flex-wrap: wrap;
+}
+.minimal-contact-item svg {
+    display: none; /* Hide icons in this template */
+}
+
+
+/* --- Content Section --- */
+.minimal-content {
+    /* No specific styles needed for single column */
+}
+.minimal-section {
+  margin-bottom: 20px;
+}
+.minimal-section-title {
+  font-weight: 700 !important;
+  font-size: 13px !important; /* Small, uppercase titles */
+  color: var(--accent-color) !important; /* Use accent color */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px !important;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--accent-color); /* Underline with accent color */
+}
+.minimal-paragraph { /* For Summary */
+  font-size: 14px;
+  color: #444; /* Slightly darker than default gray */
+  margin-bottom: 0; /* Remove extra margin */
+}
+
+/* --- Experience/Education/Project Items --- */
+.minimal-item {
+  margin-bottom: 15px;
+}
+.minimal-item-title {
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color: #000; /* Black titles */
+  margin-bottom: 0px !important;
+}
+.minimal-item-subtitle {
+  font-weight: 400; /* Regular weight */
+  font-style: italic; /* Italic subtitle */
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+.minimal-item-date {
+  font-size: 13px;
+  font-weight: 500;
+  color: #777;
+  text-align: right;
+  white-space: nowrap;
+}
+.minimal-item-description { /* For Experience/Project */
+  font-size: 14px;
+  color: #444;
+  margin-top: 5px;
+  padding-left: 0;
+  list-style: none; /* No bullets */
+  margin-left: 0;
+}
+.minimal-item-gpa { /* Specific style for GPA */
+    margin: 2px 0 0 0 !important;
+    font-size: 13px !important;
+    color: #777 !important;
+}
+
+/* --- Skills Styles --- */
+.minimal-skills-list {
+    font-size: 14px;
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px; /* No gap needed if using separators */
+    margin-top: 5px;
+}
+.skill-separator {
+    color: var(--accent-color); /* Use accent color */
+    margin: 0 8px;
+    font-weight: bold;
+}

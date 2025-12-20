@@ -1,0 +1,144 @@
+/* frontend/src/components/templates/TemplateC.css */
+
+.preview-container.template-minimal-image {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Common sans-serif */
+  color: #333;
+  line-height: 1.5;
+}
+
+/* --- Sidebar --- */
+.minimal-image-sidebar {
+  padding: 30px 20px 30px 30px; /* Adjust padding */
+  /* background-color: #f8f9fa; Optional light background */
+}
+.avatar-section {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.minimal-image-section {
+    margin-bottom: 25px;
+}
+.minimal-image-sidebar-title {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    color: #555 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px !important;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd; /* Light border below sidebar titles */
+}
+.sidebar-text {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 6px;
+    word-break: break-word; /* Wrap long emails/links */
+}
+.sidebar-text .anticon {
+    margin-right: 8px;
+    color: var(--accent-color); /* Use accent color for icons */
+}
+.sidebar-edu-item {
+    margin-bottom: 15px;
+}
+.sidebar-degree {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+.sidebar-school {
+    display: block;
+    font-size: 13px;
+    color: #555;
+}
+.sidebar-date {
+    display: block;
+    font-size: 12px;
+    color: #777;
+}
+.sidebar-skill {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 4px;
+}
+
+
+/* --- Main Content --- */
+.minimal-image-main {
+  padding: 30px 30px 30px 10px; /* Adjust padding */
+  border-left: 1px solid #eee; /* Subtle separator line */
+}
+.main-header {
+    margin-bottom: 25px;
+}
+.minimal-image-name {
+    font-size: 36px !important; /* Large name */
+    font-weight: 700 !important;
+    color: var(--accent-color) !important; /* Use accent color */
+    margin-bottom: 0px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.minimal-image-profession {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    letter-spacing: 2px;
+    margin-top: -5px; /* Pull up slightly */
+    display: block;
+}
+.minimal-image-main-title {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: var(--accent-color) !important; /* Use accent color */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px !important;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+}
+.main-paragraph { /* For Summary */
+  font-size: 14px;
+  color: #555;
+}
+.main-item {
+  margin-bottom: 20px;
+}
+.main-item-title {
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color: #333;
+  margin-bottom: 1px !important;
+}
+.main-item-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #555; /* Changed from accent color */
+  display: block;
+  margin-bottom: 6px;
+}
+.main-item-date {
+  font-size: 13px;
+  font-weight: 500;
+  color: #777;
+  text-align: right;
+  white-space: nowrap;
+}
+.main-item-description { /* For Experience/Project bullet points */
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+  list-style-type: disc;
+  margin-left: 18px; /* Indent bullets */
+  padding-left: 0;
+}
+.main-item-description li {
+    margin-bottom: 4px;
+}
+.main-item-gpa { /* Specific style for GPA if needed in main */
+    margin: 2px 0 0 0 !important;
+    font-size: 13px !important;
+    color: #777 !important;
+}
